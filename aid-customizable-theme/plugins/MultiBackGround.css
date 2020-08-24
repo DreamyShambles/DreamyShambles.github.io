@@ -1,70 +1,75 @@
-@keyframes MBG {
+@keyframes test {
   0% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background1) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/DZ60pHa.jpg') !important;
   }
   10% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background1) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/DZ60pHa.jpg') !important;
   }
   10.1% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background2) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/xz62I03.jpg') !important;
   }
   20% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background2) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/xz62I03.jpg') !important;
   }
   20.1% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background3) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/YupSe8f.jpg') !important;
   }
   30% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background3) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/YupSe8f.jpg') !important;
   }
   30.1% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background4) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/mf8BJ53.jpg') !important;
   }
   40% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background4) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/mf8BJ53.jpg') !important;
   }
   40.1% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background5) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/ZQT9I6E.jpg') !important;
   }
   50% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background5) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/ZQT9I6E.jpg') !important;
   }
   50.1% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background6) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/JMrNYoU.jpg') !important;
   }
   60% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background6) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/JMrNYoU.jpg') !important;
   }
   60.1% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background7) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/MrFTBEM.jpg') !important;
   }
   70% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background7) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/MrFTBEM.jpg') !important;
   }
   70.1% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background8) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/UMRTcNa.jpg') !important;
   }
   80% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background8) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/UMRTcNa.jpg') !important;
   }
   80.1% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background9) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/9t3ujwO.jpg') !important;
   }
   90% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background9) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/9t3ujwO.jpg') !important;
   }
   90.1% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background10) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/S36ObCe.jpg') !important;
+  }
+  99.9% {
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/S36ObCe.jpg') !important;
   }
   100% {
-    background-image: var(--MBG-BackgroundDim), var(--MBG-Background10) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('https://i.imgur.com/DZ60pHa.jpg') !important;
   }
 }
 
 div[style*="padding-left: 90px"],
-div[style*="display: flex; justify-content: flex-start; padding-bottom: 40px; padding-top: 64px"] {
-    animation-name: MBG;
-    animation-duration: var(--MBG-BackgroundDuration);
+div[style*="display: flex; justify-content: flex-start; padding-bottom: 40px; padding-top: 64px;"] {
+    background-size: cover;
+    background-position: 50% 50%;
+    animation-name: test;
+    animation-duration: 1000s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }

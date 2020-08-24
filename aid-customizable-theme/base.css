@@ -1,0 +1,102 @@
+/* Text */
+* {
+    font-family: "Arial" !important; /* ----> Change "Arial" to whatever font you want */
+    color: #87d27f !important; /* ----> Click the box to pick text a color */
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000; /* ----> Text outline, remove this line if you don't want an outline */
+}
+ 
+/* background */
+div[style*="padding-left: 90px"], div[style*="display: flex; justify-content: flex-start; padding-bottom: 40px; padding-top: 64px"] {
+    background-image: 
+        linear-gradient(#0009,#0009) /* Darkens the background image somewhat to make it more readable, remove this line if you don't need it. Play around with the opacity to make it more or less dark. */
+        ,url(https://7themes.su/_ph/4/437814529.gif) /* Replace the url with whatever background image you want, delete this line entirely if you just want a solid color background */
+        !important;
+    background-color: #333 !important; /* ----> Click the box to pick a background color */
+    background-size: cover; /* ----> Size of the background, cover will make it fullscreen. Change to a percentage if you want a tiling background image */
+    background-position: center ; /* ----> Background position. Other options: top, right, bottom, left */
+}
+ 
+body {
+    background-color: #111 !important; /* ----> Loading screen background, keep dark so you don't get blinded when loading the page. Shouldn't be visible anywhere else */
+}
+ 
+/* Buttons */
+ 
+div[style*="border-radius: 10px; justify-content: flex-start; margin: 2px 5px; padding: 8px;"], div[style*="border-radius: 5px; height: 30px; width: auto;"], .css-1dbjc4n[style*="background-image: linear-gradient"] {
+    background-color: #0000004d !important; /* ----> Changes the background color of the in-game buttons (And also the "Continue" button) */
+    background-image: none !important; /* ----> Removes the gradient from the do/say/story button */
+}
+ 
+div[style*="max-width: 450px;"] {
+    background-color: #0000004d !important; /* ----> Changes the background color of the main menu buttons (Except for "Continue" button which inherents background color from above) */
+}
+ 
+/* Input Box */
+ 
+.css-1dbjc4n.r-13awgt0.r-18u37iz[style*="border-radius: 8px; border-width: 1.5px; margin-right: 10px; min-height: 45px;"] {
+    border-color: #0000004d !important; /* ----> Changes the border color of the input box */
+}
+ 
+.css-1cwyjr8.r-13awgt0.r-1ag4vb1::placeholder {
+    color: #87d27f3b !important; /* ----> Changes the input placeholder text color */
+}
+ 
+/* Scrollbar styling (Chromium only) */
+ 
+*::-webkit-scrollbar {
+    width: 6px !important; /* ----> Scrollbar width in pixels */
+}
+*::-webkit-scrollbar-track {
+    background: #0000007d !important; /* ----> Scrollbar track color */
+}
+*::-webkit-scrollbar-thumb {
+    background: #87d27f !important; /* ----> Scrollbar color */
+}
+*::-webkit-scrollbar-thumb:active {
+    background: #5a8e54 !important; /* ----> Scrollbar color while in use */
+}
+ 
+.css-1dbjc4n.r-13awgt0[style*="padding-right"] {
+    padding-right: 0px !important; /* ----> Removes some padding so the scrollbar is on the edge of the window instead of floating 90 pixels off the edge. */
+}
+ 
+/* right sidebar */
+ 
+.r-1pi2tsx.css-1dbjc4n[style*="width: 256px; z-index: 101;"] {
+    background-color: #5a8e5426 !important;
+}
+ 
+/* misc colors */
+ 
+*[style*="background-color: rgb(59, 59, 59)"] {
+    background-color: #0000006b !important; /* ----> Replaces all the grey colors (Setting buttons, My stuff/Explore buttons and search bar, maybe some more stuff) */
+}
+ 
+*[style*="background-color: rgb(0, 150, 136)"] {
+    background-color: #87d27f !important; /* ----> Replaces the settings toggle button colors */
+}
+ 
+*[style*="background-color: rgb(163, 211, 207)"] {
+    background-color: #0000006e !important; /* ----> Replaces the settings toggle button bar colors */
+}
+ 
+/* Don't touch these */
+div[style*="border-radius: 5px; height: 30px; width: auto;"] {
+    background-color: #0000 !important;
+}
+ 
+*[style*="font-family: MaterialCommunityIcons"] {
+    font-family: "MaterialCommunityIcons" !important;
+} 
+ 
+*[style*="FontAwesome"] {
+    font-family: "FontAwesome" !important;
+}
+ 
+.r-13awgt0 {
+    background-color: #0000 !important;
+}
+ 
+.r-eqz5dr {
+    background-color: #0000 !important;
+}
